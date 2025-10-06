@@ -1,6 +1,6 @@
 {
   "name": "@klazapp/typescript-lifecycle",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
@@ -22,8 +22,15 @@
     "dev": "tsup --watch --dts",
     "clean": "rimraf dist"
   },
-  "files": ["dist"],
-  "keywords": ["lifecycle", "error-handling", "async", "typescript"],
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "lifecycle",
+    "error-handling",
+    "async",
+    "typescript"
+  ],
   "author": "Klazapp",
   "license": "MIT",
   "devDependencies": {
